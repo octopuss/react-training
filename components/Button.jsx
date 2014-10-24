@@ -19,7 +19,7 @@ var Button = React.createClass({
         console.log("Button component was mount to dom");
     },
     render: function() {
-        return(<Btn bsStyle="success" bsSize="large" active={this.state.active}>{this.props.icon!=undefined ? <Icon icon={this.props.icon}/> : ''}{this.props.text}</Btn>)
+        return(<Btn bsStyle="primary" bsSize="large" active={this.state.active}>{this.props.icon!=undefined ? <Icon icon={this.props.icon}/> : ''}{this.props.text}</Btn>)
     }
 });
 
