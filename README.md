@@ -3,9 +3,8 @@ react-training
 
 React training for GDEV team
 
-Part 3
+Part 1
 ------
 
-*   Jquery
-*   Promise
-*   Apiary
+*   Flux (as Application dispatcher)
+*   EventEmmiter
