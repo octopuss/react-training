@@ -7,7 +7,6 @@ Part 0
 ------
 
 *   Gulp
-*   React
 *   Sass
 *   Webpack
 
@@ -22,3 +21,10 @@ than run commands below to initialize project
 
     npm install
     bower install
+
+
+use
+
+    gulp
+
+command to process gulp tasks
