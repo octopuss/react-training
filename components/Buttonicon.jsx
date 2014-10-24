@@ -1,5 +1,8 @@
 /** @jsx React.DOM */
-
+/**
+ * Button Icon react component
+ * @type {exports}
+ */
 var React = require('react');
 
 var ButtonIcon = React.createClass({

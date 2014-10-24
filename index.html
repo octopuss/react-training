@@ -13,10 +13,15 @@
 <div class="alert alert-success my-alert-style">
    <h1><span></span> It works!</h1>
 </div>
-<div id="content"></div>
+<div id="content">
+    <div id="first-button"></div>
+    <div id="second-button"></div>
+</div>
 <script src="dist/js/starter.js"></script>
 <script>
-    starter.start({text:"Hello everybody", icon:"fa-thumbs-o-up"});
+    starter.start([
+        {text:"Drink", icon:"fa-user"},
+        {text:"Me", icon:"fa-beer"}]);
 </script>
 </body>
 </html>
