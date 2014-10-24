@@ -7,7 +7,6 @@ Part 0
 ------
 
 *   Gulp
-*   React
 *   Sass
 *   Webpack
 
