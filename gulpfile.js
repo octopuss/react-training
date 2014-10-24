@@ -40,8 +40,8 @@ var config = {
 
 var webpackConfig  = {
     entry : {
-       starter : './lib/starter.js'
-       //,index : './views/index.jsx'
+       'index-starter' : './lib/index-starter.js'
+       ,'index' : './views/Index.jsx'
     },
     module : {
         loaders : [
