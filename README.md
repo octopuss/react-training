@@ -20,6 +20,7 @@ Part 0
     npm install -g bower
     npm install -g gulp
 
+
 * than run commands below to initialize project
 
 
