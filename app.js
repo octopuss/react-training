@@ -12,7 +12,7 @@ var app = express();
 // view engine setup
 app.set('views', path.join(__dirname, '/views/'));
 app.set('view engine', 'jsx');
-app.engine('jsx', require('express-react-views').createEngine({jsx: {harmony: true},beautify:true}));
+app.engine('jsx', require('express-react-views').createEngine({jsx: {harmony: true,extension:".js"},beautify:true}));
 
 
 app.use(logger('dev'));
