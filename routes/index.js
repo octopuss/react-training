@@ -4,5 +4,5 @@ var express = require('express');
 
 
 exports.index = function(req, res){
-    res.render('Index', { title: 'React training final', js: 'index'});
+    res.render('index', { title: 'React training final', js: 'index'});
 };
