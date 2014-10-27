@@ -1,7 +1,7 @@
 react-training
 ==============
 
-Training is organized into 5 parts. Each part is demonstrating usage of specific technology or principle.
+Training is organized into 5 parts. Each one is in separate branch, so you can always check desired outcoming result.  Parts are logically separated, demonstrating usage of specific technology or principle.
 
 Part 0
 ------
