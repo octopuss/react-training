@@ -13,8 +13,8 @@ var Layout = React.createClass({
         return (
             <html>
                 <head>
-                    <meta charset="utf-8" />
-                    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+                    <meta charSet="utf-8" />
+                    <meta httpEquiv="X-UA-Compatible" content="IE=edge" />
                     <meta name="viewport" content="width=device-width, initial-scale=1" />
                     <title>{this.props.title}</title>
                     <link href="css/main.css" rel="stylesheet" />

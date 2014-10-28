@@ -8,9 +8,7 @@ var routes = require('./routes');
 
 var app = express();
 
-// view engine setup
-app.set('views', __dirname + '/views');
-app.set('view engine', 'jsx');
+
 app.engine('jsx', require('express-react-views').createEngine({jsx: {harmony: true},beautify:true}));
 
 app.use(logger('dev'));
