@@ -4,7 +4,7 @@ var React = require('react');
 var Layout = require('./Layout.jsx');
 var Content = require('../components/Content.jsx');
 
-var Index = React.createClass({
+var index = React.createClass({
     propTypes: {
         title: React.PropTypes.string
     },
@@ -18,4 +18,4 @@ var Index = React.createClass({
     }
 });
 
-module.exports = Index;
+module.exports = index;
