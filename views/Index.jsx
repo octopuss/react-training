@@ -11,7 +11,7 @@ var Index = React.createClass({
 
     render: function() {
         return (
-            <Layout title={this.props.title} generated={this.props.generated} js={this.props.js}>
+            <Layout title={this.props.title} js={this.props.js}>
                 <Content/>
             </Layout>
             );
