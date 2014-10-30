@@ -5,13 +5,13 @@ Training is organized into 5 parts. Each one is in separate branch, so you can a
 
 To start you need to clone this repository using 
 
-    git clone
+    git clone https://github.com/octopuss/react-training.git
 list remote branches using
 
     git branch -r
 fetch remote branches using 
 
-    git fetch --all
+    git fetch origin
 To switch between branches use
 
     git checkout part-X
