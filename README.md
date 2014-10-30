@@ -3,6 +3,20 @@ react-training
 
 Training is organized into 5 parts. Each one is in separate branch, so you can always check desired outcoming result.  Parts are logically separated, demonstrating usage of specific technology or principle.
 
+To start you need to clone this repository using 
+
+    git clone
+list remote branches using
+
+    git branch -r
+fetch remote branches using 
+
+    git fetch --all
+To switch between branches use
+
+    git checkout part-X
+where `part-X` is `master` branch or other branch from the training    
+
 Part 0
 ------
 *Technologies*
